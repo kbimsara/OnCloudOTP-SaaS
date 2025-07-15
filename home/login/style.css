@@ -1,0 +1,105 @@
+body {
+    /* background-image: url(./src/img/GettyImages-1226985345.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-color: aliceblue; */
+    /* background-color: #E3FDFD; */
+}
+
+.cs-clr {
+    background-color: #e9e9e9;
+    padding: 20px;
+    margin-top: 150px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    /* border: 2px solid rgba(0, 255, 255, 0.803); */
+}
+
+.txt-lb {
+    font-weight: bold;
+}
+
+.btn-lg {
+    min-width: 150px;
+}
+
+.validation {
+    margin-left: 10px;
+}
+
+.img-cover {
+    height: 250px;
+}
+
+.number-10 {
+    /* width: max-content; */
+    margin: 5px;
+    text-align: center;
+    /* border: 1px solid lightseagreen; */
+    font-weight: bolder;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.txt-vr {
+    font-size: small;
+    margin: 0px;
+    font-weight: 500;
+}
+
+.dash-count {
+    text-align: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+/*Scroll x axis*/
+.scl {
+
+    display: flex;
+    overflow-x: scroll;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.scl2 {
+
+    display: flex;
+    overflow-y: scroll;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.scl::-webkit-scrollbar {
+    width: 0px;
+}
+
+.scl2::-webkit-scrollbar {
+    height: 0px;
+}
+
+.scl.scroll-item {
+    margin-bottom: 5px;
+}
+
+.scl2.scroll-item {
+    margin-left: 5px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+html {
+    scroll-behavior: smooth
+}

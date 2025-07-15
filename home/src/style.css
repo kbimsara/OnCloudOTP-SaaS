@@ -1,0 +1,63 @@
+.f-c-thin {
+    font-family: Thin-trial;
+}
+
+
+.f-c-bolt {
+    font-family: bolt-trial;
+}
+
+svg {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.line {
+    margin: 10px;
+}
+
+.len {
+    /* width: 620px; */
+    border: 1px rgb(199, 199, 199) solid;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.brd {
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+.crd {
+    height: 420px;
+}
+
+.mp {
+    margin: 0px;
+    padding: 0px;
+}
+
+.b {
+    font-weight: 800;
+}
+
+/* font import */
+@font-face {
+    font-family: Thin-trial;
+    src: url(./font/cocogoose/Cocogoose\ Pro\ Thin-trial.ttf);
+}
+
+@font-face {
+    font-family: bolt-trial;
+    src: url(./font/cocogoose//Cocogoose\ Pro\ Semilight-trial.ttf);
+}
+/* scroll effect */
+html {
+    scroll-behavior: smooth
+}
